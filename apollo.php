@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Apollo Festivals
+ * Plugin Name: Apollo for Wordpress
  * Version: 1.0.0
  * Plugin URI: https://github.com/philyboysmith/apollo-festivals
- * Description: Sync apollo and Wordpress
+ * Description: Sync Apollo and Wordpress
  * Author: Hugh Lashbrooke
  * Author URI: http://www.amillionmonkeys.co.uk
  * Requires at least: 4.0
