@@ -1,0 +1,97 @@
+/* phpcs:ignore */
+
+.pulse {
+    margin:0 8px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(52, 204, 44);
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(52, 204, 44, 0.4);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(52,204,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(52,204,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(52,204,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(52,204,44, 0.4);
+      box-shadow: 0 0 0 0 rgba(52,204,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(52,204,44, 0);
+        box-shadow: 0 0 0 10px rgba(52,204,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(52,204,44, 0);
+        box-shadow: 0 0 0 0 rgba(52,204,44, 0);
+    }
+  }
+
+  /* phpcs:ignore */
+
+.pulse-warning{
+    margin:0 8px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(204,169,44);
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse-warning 2s infinite;
+  }
+  .pulse-warning:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse-warning {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse-warning {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
+  .apollo-buttton {
+    display: inline-block;
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    border: 0.125rem solid #5f4dee;
+    border-radius: 2rem;
+    background-color: #5f4dee;
+    color: #fff;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
